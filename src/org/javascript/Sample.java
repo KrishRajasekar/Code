@@ -14,7 +14,9 @@ public class Sample {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		
-	
+		WebElement element = driver.findElement(By.id("email"));
+		element.sendKeys("151654");
+
 		
 	}
 		
