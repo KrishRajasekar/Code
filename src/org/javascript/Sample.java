@@ -22,8 +22,20 @@ public class Sample {
 		System.out.println("EmpCity : Chennai");
 	}
 	public static void main(String[] args) {
-	
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.facebook.com/");
 		
+		WebElement element = driver.findElement(By.id("email"));
+		element.sendKeys("151654");
 	}
+//<<<<<<< HEAD
+//		
+//		
+//
+//=======
+//	
+//>>>>>>> eb635b8039bd2b23430cccf147085a8ea2249244
+		
+	
 		
 }
